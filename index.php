@@ -15,7 +15,7 @@
         //inclut la pagecorrespondante en fonction du paramètre "page
         switch($page){
             case 'accueil':
-                include('index.php');
+                include('html/accueil.php');
                 break;
             case 'actualite':
                 include('html/actualite.php');
@@ -35,8 +35,8 @@
             case 'article':
                 include('html/article.php');
                 break;
-                default:
-                include ('index.php');
+            default:
+                include ('html/accueil.php');
         }
     } else {
         // page par defaut lorsque aucun paramètre "page n'est pas specifié
