@@ -2,44 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="../css/normalize.css">
-
     <title>classement</title>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
-                <a href="../index.html">Accueil</a>
-                <a href="actualité.html">Actu équipe</a>
-                <a href="actualité.html">L'Inter-quartier</a>
-                <a href="classement_competition.html">Classement</a>
-                <a href="calendrier.html">Calendrier</a>
-                <a href="forum.html">Forum</a>
-                <a href="contact.html">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            <div class="search">
-                <input type="text" placeholder="recherchez">
-                <button type="submit">
-                    <i class="fa fa-search"></i>
-                </button>
-            </div>
-        </nav>
-    </header>
-
     <main>
         <section>
             <h2 class="titre">CLASSEMENT INTERQUARTIER</h2>
@@ -222,19 +187,6 @@
         </section>
 
     </main>
-
-    <footer>
-        <p>
-            Pour plus d’actualité rejoingnez nous
-            à travers nos reseaux sociaux
-        </p>
-        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
-        <a href="https://www.messenger.com/"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
-    </footer>
-
-    <script src="../script/script_burger.js"></script>
-
 </body>
 
 </html>

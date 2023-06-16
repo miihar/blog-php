@@ -1,53 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Article</title> 
+  </head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="../css/normalize.css">
-
-    <title>Article</title>
-    
-</head>
-
-<body>
-
-    <header>
-      <nav>
-          <div class="topnav" id="myTopnav">
-              <a  href="../index.html" ><img src="../images/logo.png" alt="logo"></a>
-              <a  href="../index.html">Accueil</a>
-              <a  href="../html/actualité.html">Actu équipe</a>
-              <a  href="../html/actualité.html">L'Inter-quartier</a>
-              <a  href="../html/classement_competition.html">Classement</a>
-              <a  href="../html/calendrier.html">Calendrier</a>
-              <a  href="../html/forum.html">Forum</a>
-              <a  href="../html/contact.html">Contact</a>
-              <a  href="javascript:void(0);" class="icon" onclick="burgerMenu()">
-                  <i class="fa fa-bars"></i>
-              </a>
-          </div>
-          <div class="search">
-              <input type="text" placeholder="recherchez">
-              <button type="submit">
-                  <i class="fa fa-search"></i>
-              </button>
-          </div>
-      </nav>
-  </header>
-
+  <body>
     <main id="article">
         <!-- Partie 1 avec l'article -->
         <section class="partOne">
@@ -62,7 +19,7 @@
 
             <div class="blocimg">
                 <hr>
-                <img src="../images/image1.jpg" class="princimg" alt="image">
+                <img src="images/image1.jpg" class="princimg" alt="image">
                 <h6 class="legende">Date</h6>
             </div>  
 
@@ -107,13 +64,13 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active carrousel">
-                    <img src="../images/CARROUSEL.jpg" class="d-block w-100" alt="..." >
+                    <img src="images/CARROUSEL.jpg" class="d-block w-100" alt="..." >
                   </div>
                   <div class="carousel-item carrousel">
-                    <img src="../images/image1.jpg" class="d-block w-100" alt="...">
+                    <img src="images/image1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item carrousel">
-                    <img src="../images/ACCEUIL.jpg" class="d-block w-100" alt="...">
+                    <img src="images/ACCEUIL.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -129,19 +86,7 @@
         </section>
 
     </main>
-
-    <footer>
-      <p>
-          Pour plus d’actualité  rejoingnez nous 
-          à travers nos reseaux sociaux
-      </p> 
-      <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
-      <a href="https://www.messenger.com/"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
-    </footer>
-
-    <script src="../script/script_burger.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-</body>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+  </body>
 </html>
